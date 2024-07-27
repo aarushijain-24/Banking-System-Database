@@ -1,4 +1,5 @@
 CREATE PROCEDURE CreateCustomer
+    @CustomerID INT,
     @FirstName NVARCHAR(50),
     @LastName NVARCHAR(50),
     @DateOfBirth DATE,
@@ -7,6 +8,6 @@ CREATE PROCEDURE CreateCustomer
     @Address NVARCHAR(255)
 AS
 BEGIN
-    INSERT INTO Customers (FirstName, LastName, DateOfBirth, Email, Phone, Address)
-    VALUES (@FirstName, @LastName, @DateOfBirth, @Email, @Phone, @Address);
+    INSERT INTO Customers (CustomerID, FirstName, LastName, DateOfBirth, Email, Phone, Address)
+    VALUES (@CustomerID, @FirstName, @LastName, @DateOfBirth, @Email, @Phone, @Address);
 END;
