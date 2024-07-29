@@ -20,7 +20,7 @@ CREATE TABLE Accounts (
 
 -- Create the Transactions table
 CREATE TABLE Transactions (
-    TransactionID INT PRIMARY KEY,
+    TransactionID INT IDENTITY(1,1) PRIMARY KEY,
     AccountNumber INT,
     TransactionType VARCHAR(50),
     Amount DECIMAL(10, 2) CHECK (Amount > 0),
