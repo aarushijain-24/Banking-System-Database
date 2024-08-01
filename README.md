@@ -23,3 +23,12 @@ This project involves designing and implementing a database schema for a banking
 5. TransferMoney
 6. ViewTransactionHistory
 
+## Testing Procedures
+
+1. CreateCustomer
+2. OpenAccount
+3. DepositMoney
+4. WithdrawMoney
+5. TransferMoney
+6. ViewTransactionHistory
+
