@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project involves designing and implementing a database schema for a banking system. The database manages customer information, accounts, transactions, and other relevant data.
+This project involves designing, implementing and testing a database schema for a banking system. The database manages customer information, accounts and transactions data.
 
 ## Database Schema
 
@@ -11,8 +11,6 @@ This project involves designing and implementing a database schema for a banking
 1. Customers
 2. Accounts
 3. Transactions
-
-
 
 ## Stored Procedures
 
